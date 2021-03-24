@@ -1,0 +1,11 @@
+classes= 3
+train  = /media/lyq/data/kitti/train.list
+valid  = /media/lyq/data/kitti/test.list
+
+names = ./kittifrontview/names.txt
+labels = ./kittifrontview/labels.txt
+backup = ./model_backup/
+
+
+eval=kitti
+results = kittifrontview/result
