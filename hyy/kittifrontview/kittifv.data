@@ -1,0 +1,20 @@
+classes= 3
+#train  =/media/kid/space1/object/training/train.list
+train  =/media/kid/space3/dkdata/train_refine.list
+#valid  = /media/kid/space3/dkdata/train_refine.list
+valid  = /media/kid/space3/dkdata/test_refine.list
+#valid  = /media/kid/space3/dkdata/test_origin.list
+
+#valid = /media/kid/space3/dkdata/downtown_origin.list
+#valid = /media/kid/space3/dkdata/highway_origin.list
+#valid = /media/kid/space3/dkdata/uptown_origin.list
+
+#valid = /media/kid/space3/dkdata/downtown_refine.list
+#valid = /media/kid/space3/dkdata/highway_refine.list
+#valid = /media/kid/space3/dkdata/uptown_refine.list
+
+names = /home/kid/workspace/darknet/kittifrontview/names.txt
+labels = /home/kid/workspace/darknet/kittifrontview/labels.txt
+backup = /media/kid/space2/kittimodel
+eval=kitti
+results = kittifrontview/result

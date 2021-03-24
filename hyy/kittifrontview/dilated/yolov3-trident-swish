@@ -1,0 +1,20 @@
+Total BFLOPS 80.837 
+ Allocate additional workspace_size = 52.43 MB 
+Loading weights from /media/kid/space2/kittimodel/yolov3-trident-swish_final.weights...
+ seen 64 
+Done! Loaded 157 layers from weights-file 
+
+ calculation mAP (mean average precision)...
+8008
+ detections_count = 79378, unique_truth_count = 36702  
+class_id = 0, name = vehicle, ap = 95.83%   	 (TP = 23751, FP = 3498) 
+class_id = 1, name = person, ap = 83.37%   	 (TP = 8354, FP = 2078) 
+class_id = 2, name = cyclist, ap = 87.95%   	 (TP = 1496, FP = 351) 
+
+ for conf_thresh = 0.25, precision = 0.85, recall = 0.92, F1-score = 0.88 
+ for conf_thresh = 0.25, TP = 33601, FP = 5927, FN = 3101, average IoU = 69.71 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.890477, or 89.05 % 
+Total Detection Time: 324.000000 Seconds
+

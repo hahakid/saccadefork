@@ -1,0 +1,32 @@
+classes= 1
+#train  =/media/kid/space1/object/training/train.list
+train  =/media/lyq/data/hyydata/localdata/train.list
+valid  = /media/lyq/data/hyydata/localdata/test.list
+#valid  =/media/lyq/data/hyydata/localdata/train.list
+
+#large
+#valid  = /media/lyq/data/ouyang/data/test_refine.list
+#media
+#valid  = /media/lyq/data/ouyang/data/test_refine.list
+#small
+#valid  = /media/lyq/data/ouyang/data/test_refine.list
+
+
+
+
+#valid  = /media/kid/space3/dkdata/test_origin.list
+
+#valid = /media/kid/space3/dkdata/downtown_origin.list
+#valid = /media/kid/space3/dkdata/highway_origin.list
+#valid = /media/kid/space3/dkdata/uptown_origin.list
+
+#valid = /media/kid/space3/dkdata/downtown_refine.list
+#valid = /media/kid/space3/dkdata/highway_refine.list
+#valid = /media/kid/space3/dkdata/uptown_refine.list
+
+names = /home/lyq/AB_darknet/darknet-ouyang/darknet-train-hyy/hyy/names.txt
+labels = /home/lyq/AB_darknet/darknet-ouyang/darknet-train-hyy/hyy/labels.txt
+#backup = /media/lyq/data/ouyang/kittimodel
+backup = /media/lyq/data/ouyang/hyymodel2c
+eval=kitti
+results = hyy/result
